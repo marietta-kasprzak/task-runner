@@ -41,6 +41,7 @@ p {
     font-weight: bold;
     text-align: left;
     margin-left: 20px;
+    padding: 10px;
 }
 
 
@@ -84,6 +85,7 @@ p {
     color: #ffcc00;
     border-radius: 50%;
     border-color: #ffcc00; 
+    border-style: dotted;
     transition: all 1s;
 }
 
@@ -108,6 +110,9 @@ p {
 
 /* Footer*/
 
+.footer {
+    padding: 20px;
+}
 .footer i {
     font-size: 0;
     background: black;
@@ -119,7 +124,7 @@ p {
     transition: all 1s;
     text-align: center;
     }
-    
+
 .footer li {
     display: inline;
     position: relative;
