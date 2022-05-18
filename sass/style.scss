@@ -1,6 +1,130 @@
+h3 {
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h5 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    font-size: small;
+    color: #888888;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 /* HEAD */
 
-.splasch {
-    background-image: url("https://images.pexels.com/photos/11059192/pexels-photo-11059192.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+.splash {
+    background-image: url("https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    height: 100vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10px;
+}
 
+.splash a {
+    display: inline;
+}
+
+.splash .title {
+    color: red;
+    font-family: Snell Roundhand, cursive;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.splash .nav {
+    color:#F5F5F5;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+.splash-inner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
+  
+.splash .page-title {
+    color: #fff;
+    font-size: 40px;
+    margin: 48px 0 0 0;
+    font-family: monospace; }
+
+.splash .page-subtitle {
+    color: #fff;
+    font-size: 60px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+}
+
+/* Services */
+
+.services {
+    text-align: center;
+}
+
+.services-card i {
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    color: #ffcc00;
+    border-radius: 50%;
+    border-color: #ffcc00; 
+    transition: all 1s;
+}
+
+
+/*Portfolio*/
+
+.portfolio {
+    background-color: #F5F5F5;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover;
+}
+
+.portfolio-title {
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Footer*/
+
+.footer i {
+    font-size: 0;
+    background: black;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    color: white;
+    transition: all 1s;
+    text-align: center;
+    }
+    
+.footer li {
+    display: inline;
+    position: relative;
+    }
+
+.footer i::before {
+    font-size: 15px;
 }
